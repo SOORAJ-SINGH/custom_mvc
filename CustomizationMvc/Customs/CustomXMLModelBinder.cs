@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 
-namespace CustomizationMvc.App_Start
+namespace CustomizationMvc.Customs
 {
     public class CustomXMLModelBinder : IModelBinder
     {

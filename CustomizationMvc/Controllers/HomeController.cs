@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CustomizationMvc.Customs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,9 +30,19 @@ namespace CustomizationMvc.Controllers
 
         public ActionResult Custom()
         {
+
+
             return View();
         }
 
+        public ActionResult CustomXML()
+        {
+
+            var employee = new Employee() { EmployeeId=1,EmployeeName="Rahul",Salary=23000 };
+            //return new CustomXMLResult(new { name = "Pankaj", age = "23" });
+            return new CustomXMLResult(employee);
+
+        }
         public ActionResult GetEmployee(Employee emp)
         {
             return View();

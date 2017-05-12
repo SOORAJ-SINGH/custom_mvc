@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-namespace CustomizationMvc.App_Start
+namespace CustomizationMvc.Customs
 {
     public class CustomModule : IHttpModule
     {
@@ -19,6 +19,12 @@ namespace CustomizationMvc.App_Start
         {
             context.BeginRequest += (new EventHandler(this.Application_BeginRequest));
         }
+
+
+
+
+
+
 
         private void Application_BeginRequest(object sender, EventArgs e)
         {

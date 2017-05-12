@@ -163,12 +163,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\CustomHandler.cs" />
-    <Compile Include="App_Start\CustomModelBinderProvider.cs" />
-    <Compile Include="App_Start\CustomModule.cs" />
-    <Compile Include="App_Start\CustomRouteHandler.cs" />
-    <Compile Include="App_Start\CustomValueProvider.cs" />
-    <Compile Include="App_Start\CustomXMLModelBinder.cs" />
+    <Compile Include="Customs\CustomHandler.cs" />
+    <Compile Include="Customs\CustomModelBinderProvider.cs" />
+    <Compile Include="Customs\CustomModule.cs" />
+    <Compile Include="Customs\CustomRouteHandler.cs" />
+    <Compile Include="Customs\CustomValueProvider.cs" />
+    <Compile Include="Customs\CustomXMLModelBinder.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -177,6 +177,7 @@
     <Compile Include="Controllers\Employee.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Customs\CustomXMLResult.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

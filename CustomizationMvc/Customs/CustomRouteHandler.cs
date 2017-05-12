@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Routing;
 
-namespace CustomizationMvc.App_Start
+namespace CustomizationMvc.Customs
 {
     public class CustomRouteHandler : IRouteHandler
     {
